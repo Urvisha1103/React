@@ -1,9 +1,11 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Component1 from "./componentFolder/component1";
+//import Component1 from "./componentFolder/component1";
+import InputTest from "./componentFolder/component3";
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-   <Component1 />
+    {/* <Component1 />  */}
+    <InputTest />
   </StrictMode>,
-)
+);
