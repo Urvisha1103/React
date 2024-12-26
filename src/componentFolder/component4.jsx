@@ -1,12 +1,12 @@
 import * as React from "react";
-// import "./TimeTable.css";
 
 class TimeTable extends React.Component{
 
     render() {
         return (
             <div>
-            <table >
+            <table border = "1" style={ {textAlign: "center"}}>
+                <tbody>
                 <tr>
                     <th></th>
                     <th>Monday</th>
@@ -41,7 +41,7 @@ class TimeTable extends React.Component{
                 </tr>
                 <tr>
                     <td>9:45 to 10:00</td>
-                    <td>Tea Break</td>
+                    <td colSpan="5">Tea Break</td>
                 </tr>
                 <tr>
                     <td>10:00 to 10:50</td>
@@ -69,7 +69,7 @@ class TimeTable extends React.Component{
                 </tr>
                 <tr>
                     <td>11:40 to 12:30</td>
-                    <td>Lunch Break</td>
+                    <td colSpan= "5">Lunch Break</td>
                 </tr>
                 <tr>
                     <td>12:30 to 1:20</td>
@@ -85,7 +85,9 @@ class TimeTable extends React.Component{
                     <td>118</td>
                     <td>214 / Elec. Machine Lab</td>
                     <td>LL3</td>
+                    <td>LL4</td>
                 </tr>
+                </tbody>
             </table>
             </div>
         );
