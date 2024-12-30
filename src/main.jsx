@@ -4,7 +4,8 @@ import { createRoot } from 'react-dom/client'
 //import InputTest from "./componentFolder/component3";
 //import TimeTable from "./componentFolder/component4";
 // import StateABC from "./lec3012/statement1";
-import StateXYZ from './lec3012/statement2';
+// import StateXYZ from './lec3012/statement2';
+import StateMerge from './lec3012/statement3';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -12,6 +13,7 @@ createRoot(document.getElementById('root')).render(
     {/* <InputTest /> */}
     {/* <TimeTable /> */}
     {/* <StateABC /> */}
-    <StateXYZ/>
+    {/* <StateXYZ/> */}
+    <StateMerge/>
   </StrictMode>,
 );
