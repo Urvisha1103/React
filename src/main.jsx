@@ -1,6 +1,9 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import FuncComp1 from './lec3112/hookcomp1';
+import StateExample3 from './lec0601/hookexmp3';
+// import StateExample2 from './lec0601/hookexmp2';
+// import FuncComp1 from './lec3112/hookcomp1';
+// import StateExample from './lec0601/hookexmp';
 //import Component1 from "./componentFolder/component1";
 //import InputTest from "./componentFolder/component3";
 //import TimeTable from "./componentFolder/component4";
@@ -27,6 +30,9 @@ createRoot(document.getElementById('root')).render(
     {/* <MyButton3 abc={true} def={"You"} />
     <MyButton3 abc={true} />
     <MyButton3 def={"World"} /> */}
-    <FuncComp1 />
+    {/* <FuncComp1 /> */}
+    {/* <StateExample /> */}
+    {/* <StateExample2/> */}
+    <StateExample3/>
   </StrictMode>,
 );
