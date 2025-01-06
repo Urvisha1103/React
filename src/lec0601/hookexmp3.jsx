@@ -2,7 +2,9 @@ import { useState } from "react";
 
 function StateExample3() {
     const [color, setColor] = useState("green");
-    const [styles, setStyles] = useState({underline: false, bold: false, italic: false});
+    const [bld, setBld] = useState(100);
+  const [itl, setItl] = useState("");
+  const [txtdec, setTxtDec] = useState("");
     return(
         <div>
             <input type="radio" name="color" onChange={() => setColor("Yellow")} />
@@ -15,19 +17,20 @@ function StateExample3() {
             {"Blue"}
             <br />
 
-            <input type="checkBox" name="Underline" onChange={(e) => setStyles({...styles,underline: e.target.checked})}/>
+            <input type="checkBox" onChange={(e) => setBld(e.target.checked ? 900 : 100)}/>
             {"Underline"}
             <br />
-            <input type="checkBox" name="Bold"  onChange={(e) => setStyles({...styles,bold: e.target.checked})}/>
+            <input type="checkBox"  onChange={(e) => setItl(e.target.checked ? "italic" : "")}/>
             {"Bold"}
             <br />
-            <input type="checkBox"  name="Italic" onChange={(e) => setStyles({...styles,italic: e.target.checked})}/>
+            <input type="checkBox"  onChange={(e) => setTxtDec(e.target.checked ? "underline" : "")}/>
             {"Italic"}
             <br />
-            <p style={{color: color,
-                textDecoration: styles.underline ? "underline" : "none",
-                fontWeight: styles.bold ? "bold" : "normal",
-                fontStyle: styles.italic ? "italic" : "normal"
+            <p style={{
+                color: color,
+                fontWeight: bld,
+                fontStyle: itl,
+                textDecoration: txtdec,
                 }}>
                 This is the text content for Display Color...
                 </p>
