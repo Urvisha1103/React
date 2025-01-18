@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import StateExample3 from './lec0601/hookexmp3';
+// import StateExample3 from './lec0601/hookexmp3';
+import ApiSimulation from './lec1801/hookuseeffect';
 // import StateExample2 from './lec0601/hookexmp2';
 // import FuncComp1 from './lec3112/hookcomp1';
 // import StateExample from './lec0601/hookexmp';
@@ -33,6 +34,7 @@ createRoot(document.getElementById('root')).render(
     {/* <FuncComp1 /> */}
     {/* <StateExample /> */}
     {/* <StateExample2/> */}
-    <StateExample3/>
+    {/* <StateExample3/> */}
+    <ApiSimulation/>
   </StrictMode>,
 );
