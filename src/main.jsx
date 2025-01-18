@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import CountdownTimer from './lec1801/hooktimer';
+import ListSimulation from './lec1801/hookArray';
+// import CountdownTimer from './lec1801/hooktimer';
 // import StateExample3 from './lec0601/hookexmp3';
 // import ApiSimulation from './lec1801/hookuseeffect';
 // import StateExample2 from './lec0601/hookexmp2';
@@ -37,6 +38,7 @@ createRoot(document.getElementById('root')).render(
     {/* <StateExample2/> */}
     {/* <StateExample3/> */}
     {/* <ApiSimulation/> */}
-    <CountdownTimer />
+    {/* <CountdownTimer /> */}
+    <ListSimulation />
   </StrictMode>,
 );
