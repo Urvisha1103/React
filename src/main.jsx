@@ -1,6 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import Conditional from './lec2101/customcomp';
+import RegistrationForm from './lec2101/cricketerRegistration';
+// import Conditional from './lec2101/customcomp';
 // import UserComp1 from './lec2101/cleanup';
 // import ImageChanger from './lec2001/hookimage';
 // import ListSimulation from './lec1801/hookArray';
@@ -45,6 +46,7 @@ createRoot(document.getElementById('root')).render(
     {/* <ListSimulation /> */}
     {/* <ImageChanger /> */}
     {/* <UserComp1 /> */}
-    <Conditional />
+    {/* <Conditional /> */}
+    <RegistrationForm />
   </StrictMode>,
 );
