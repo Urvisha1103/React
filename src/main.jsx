@@ -1,6 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import ImageChanger from './lec2001/hookimage';
+import Conditional from './lec2101/customcomp';
+// import UserComp1 from './lec2101/cleanup';
+// import ImageChanger from './lec2001/hookimage';
 // import ListSimulation from './lec1801/hookArray';
 // import CountdownTimer from './lec1801/hooktimer';
 // import StateExample3 from './lec0601/hookexmp3';
@@ -41,6 +43,8 @@ createRoot(document.getElementById('root')).render(
     {/* <ApiSimulation/> */}
     {/* <CountdownTimer /> */}
     {/* <ListSimulation /> */}
-    <ImageChanger />
+    {/* <ImageChanger /> */}
+    {/* <UserComp1 /> */}
+    <Conditional />
   </StrictMode>,
 );
