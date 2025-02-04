@@ -7,7 +7,7 @@
 // - State (Dropdown)
 // - Date of Birth
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 function RegistrationForm() {
   const [formData, setFormData] = useState({
