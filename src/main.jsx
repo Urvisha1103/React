@@ -1,6 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { UserContex } from './lec0302/file1';
+import ReducerExmp from './lec2402/reduceexmp';
+// import ThreeStageForm from './lecture0402/UserProvider';
+// import { UserContex } from './lec0302/file1';
 // import RegistrationForm from './lec2101/cricketerRegistration';
 // import Conditional from './lec2101/customcomp';
 // import UserComp1 from './lec2101/cleanup';
@@ -49,6 +51,8 @@ createRoot(document.getElementById('root')).render(
     {/* <UserComp1 /> */}
     {/* <Conditional /> */}
     {/* <RegistrationForm /> */}
-    <UserContex />
+    {/* <UserContex /> */}
+    {/* < ThreeStageForm /> */}
+    <ReducerExmp/>
   </StrictMode>
 );
