@@ -1,6 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import ReducerExmp from './lec2402/reduceexmp';
+import Monolithic from './lec1103/monolithiccomp';
+// import ReducerDependency from './lec1003/reduceexmp2';
+// import ReducerExmp from './lec2402/reduceexmp';
 // import ThreeStageForm from './lecture0402/UserProvider';
 // import { UserContex } from './lec0302/file1';
 // import RegistrationForm from './lec2101/cricketerRegistration';
@@ -53,6 +55,8 @@ createRoot(document.getElementById('root')).render(
     {/* <RegistrationForm /> */}
     {/* <UserContex /> */}
     {/* < ThreeStageForm /> */}
-    <ReducerExmp/>
+    {/* <ReducerExmp/> */}
+    {/* <ReducerDependency /> */}
+    <Monolithic />
   </StrictMode>
 );
